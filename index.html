@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <title>2D Steam Punk Game</title>
+  </head>
+  <body>
+    <div id="container">
+      <canvas id="canvas"></canvas>
+
+      <div id="zone_joystick"></div>
+      <div id="attack-btn">
+        <img draggable="false" src="/Assets/Sword.svg" style="display: block" alt="" />
+      </div>
+    </div>
+
+    <!-- characters -->
+    <img src="/Assets/player.png" id="player" />
+    <img src="/Assets/angler1.png" id="angler1" />
+    <img src="/Assets/angler2.png" id="angler2" />
+    <img src="/Assets/lucky.png" id="lucky" />
+    <img src="/Assets/hivewhale.png" id="hiveWhale" />
+    <img src="/Assets/drone.png" id="drone" />
+
+    <!-- props -->
+    <img src="/Assets/projectile.png" id="projectile" />
+    <img src="/Assets/gears.png" id="gears" />
+    <img src="/Assets/smokeExplosion.png" id="smokeExplosion" />
+    <img src="/Assets/fireExplosion.png" id="fireExplosion" />
+
+    <!-- environment -->
+    <img src="/Assets/layer1.png" id="layer1" />
+    <img src="/Assets/layer2.png" id="layer2" />
+    <img src="/Assets/layer3.png" id="layer3" />
+    <img src="/Assets/layer4.png" id="layer4" />
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
